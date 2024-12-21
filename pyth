@@ -1,0 +1,52 @@
+pseudocode
+START
+  INPUT A, B, C
+  IF A > B AND A > C THEN
+      MAXIMUM = A
+  ELSE IF B > C THEN
+      MAXIMUM = B
+  ELSE
+      MAXIMUM = C
+  ENDIF
+  OUTPUT MAXIMUM
+END
+
+2. Compare and Contrast Two Programming Languages
+Python vs. Java:
+Python:
+
+Strengths: Simple syntax, dynamically typed, vast libraries, excellent for data science and machine learning.
+Weaknesses: Slower execution speed, less suitable for mobile development.
+Java:
+
+Strengths: Platform independence (via JVM), strong performance, robust community support.
+Weaknesses: Verbose syntax, slower development time for small projects.
+
+3.
+Compilation:
+Converts the entire source code into machine code before execution. Examples: C, Java (bytecode). Faster at runtime but requires recompilation after changes.
+
+Interpretation:
+Executes code line-by-line without prior conversion to machine code. Examples: Python, JavaScript. Slower but more flexible for scripting and testing.
+
+4.Flowchart steps:
+
+Start
+Input a number N
+Initialize factorial = 1
+Loop from 1 to N (multiply factorial by the loop variable)
+Output factorial
+End
+
+5.
+def calculate_rectangle_area(length, width):
+    """Calculate the area of a rectangle."""
+    if length <= 0 or width <= 0:
+        return "Length and width must be positive values."
+    return length * width
+
+# Example 
+length = 5
+width = 3
+print("Area:", calculate_rectangle_area(length, width))
+

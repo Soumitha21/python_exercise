@@ -1,11 +1,5 @@
 #shopping cart
-items = [
-    ["Bread", 40],
-    ["Cookies", 80],
-    ["Cheese", 180],
-    ["Butter", 120],
-    ["Yoghurt", 60]
-]
+items = [["Bread", 40],["Cookies", 80],["Cheese", 180],["Butter", 120],["Yoghurt", 60]]
 cart = []
 
 while True:
